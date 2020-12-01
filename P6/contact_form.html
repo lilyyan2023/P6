@@ -1,0 +1,62 @@
+<html>
+    <header>
+        <title>Mingze(Lily) Yan's Portfolio Website</title>
+        <link rel="stylesheet" type="text/css" href="landing_page.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        
+    </header>
+    <body>
+        <div class="head-bar">
+         <div id="words">Mingze(Lily)'s Yan</div>
+              <div class="horizontal-menu">
+                <a href="landing_page.html"><button >Home</button></a>
+                <a href="resume.html"><button id="one">Resume</button></a>
+                <a href="Bio.html"><button id="two">Bio</button></a> 
+                <a href="contact_form.html"><button id="three">Contact Me</button></a></div>
+                </div>
+        <!--use label and html attributes to make form accessible-->
+        <div class="form">
+            <form>
+                <ul>
+                    <li>
+                        <label for="fname">First Name</label><br>
+                        <input type="text" id="fname" name="fname" required><br>
+                        
+                    </li>
+                    <li>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname" required><br>
+               
+            </li>
+            <li>
+                <label for="email_add">Email Address</label><br>
+                <input type="email" id="email_add" name="email_add" required><br>
+            
+            </li>
+            <li>
+                <label for="phone">Phone Number</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
+                placeholder="Enter in the form of XXX-XXX-XXXX"><br>
+                <!--provide format to prompt user to enter correct format-->
+            </li>
+            
+            <li>
+                <label for="email_add">Email Address</label><br>
+                <input type="email" id="email_add" name="email_add" required><br>
+            </li>
+            <li>
+                <label for="comments">Comments or Questions? Feel free to leave anything you want!<br>
+                    I will try to get back to you ASAP.
+                </label><br>
+                <input type="search" id="comments" name="comments" required><br>
+                <p id="comments_alert"></p>
+            </li>
+            <li>
+                <input type="submit" value="Submit">
+           
+            </form>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,294 @@
+/*
+ shared between files*/
+.head-bar {
+	width: 100%;
+	height: 70px;
+	background-color:purple;
+	
+    text-align: left;
+    overflow: hidden;
+}
+#words {
+    float: left;
+    color:white;
+    padding:20px;
+    font-size: 35px;
+}
+.horizontal-menu{
+    /* float:right; */
+    /* padding: 30px 50px 30px;
+    color:white; */
+    color: blueviolet;
+    font-family: Arial;
+}
+
+.horizontal-menu button {
+    float:right;
+    width: fit-content;
+    height: 60%;
+    font-size:20px;
+    background: white;
+    margin-top: 10px;
+    color:blueviolet;
+    /* text-align: center; */
+    padding: 25px 55px;
+    
+}
+#one {
+    margin-right: 10px;
+}
+#two {
+    margin-right: 10px;
+}
+#three {
+    margin-right: 10px;
+}
+/* make button react with mouse hovering, further accessibility */
+.horizontal-menu button:hover{
+    background-color: rgb(214, 108, 214);
+}
+/* 
+ landing page */
+.landing_page_content{
+    background-color: rgb(214, 108, 214);
+}
+#photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 300px;
+    border-radius: 50%;
+}
+.self-description {
+    text-align: center;
+}
+#name {
+    font-size: 80px;
+    margin-bottom: 5px;
+}
+#line {
+    width: 50%;
+}
+#intro {
+    font-size: 40px;
+}
+.contact{
+    margin-left: 400px;
+    color: black;
+    font-size: 40px;  
+}
+#row{
+    margin-top: 10px;
+    margin-left: 230px;
+}
+#guide{
+    font-size: 30px;
+    color: rgb(32, 31, 31);
+    text-align: center;
+}
+#arrow{
+    width: 50px;
+    height: 50px;
+    margin-left: 680px;
+}
+.bounce {
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation: bounce 3.6s ease infinite;
+    transform-origin: 50% 50%;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    5.55556% {
+      transform: translateY(0);
+    }
+    11.11111% {
+      transform: translateY(0);
+    }
+    22.22222% {
+      transform: translateY(-15px);
+    }
+    27.77778% {
+      transform: translateY(0);
+    }
+    33.33333% {
+      transform: translateY(-15px);
+    }
+    44.44444% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+.project {
+    display: flex;
+}
+.project1 {
+    flex: 1;
+}
+.project2 {
+    flex: 1;
+}
+/*
+ project1 */
+.project1-img{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 200px;
+    position: relative;
+} 
+.project1-title{
+    text-align: center;
+    font-size: 30px;
+}
+.project1-subtitle{
+    text-align: center;
+    font-size: 25px;
+}
+#ex1{
+    float: left;
+    width: 45%;
+    height: 500px;
+    margin-left: 10px;
+}
+#photo1_desc{
+    float: left;
+    margin-top: 10px;
+    margin-left:120px;
+    margin-bottom: 50px;
+
+}
+#ex2{
+    float: right;
+    width: 45%;
+    height: 500px;
+    margin-right: 10px;
+}
+#photo2_desc{
+    float: right;
+    margin-top: 10px;
+    margin-right:120px;
+    margin-bottom: 50px;
+}
+/*
+ project2 */
+.project2-img{
+    margin-top: 20px;
+    margin-left: 250px;
+    position: relative;
+}
+.project2-title{
+    text-align: center;
+    font-size: 30px;
+}
+.project2-subtitle{
+    text-align: center;
+    font-size: 25px;
+}
+
+#project2_ex1{
+    margin-top: 50px;
+    position: relative;
+    height: 500px;
+    margin-left: 300px;
+}
+#project2_ex2{
+    position: relative;
+    height: 500px;
+    margin-left: 300px;
+}
+#project2_ex3{
+    position: relative;    
+    height: 500px;
+    margin-left: 300px;
+}
+#project2_photo_desc{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+}
+.details{
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#ppt{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+#video{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+  
+/* 
+  Bio*/
+.timeline h2{
+    font-size: 50px;
+    text-emphasis: bold;
+}
+.timeline p{
+    background-color: rgb(226, 137, 226);
+}
+/* 
+ Resume */
+.resume{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 200px;
+}
+/*
+ Contact me */
+ul{
+    list-style: none;
+}
+form li{
+    font-size: 30px;
+    margin-top: 1em;
+}
+label{
+    width: 90px;
+}
+input, textarea{
+    font: 1em 'Times New Roman';
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+input:focus, textarea:focus{
+    border-color: #000;
+}
+textarea{
+    vertical-align: top;
+    height: 5em;
+}
+#comments{
+    width: 760px;
+    height: 100px;
+}
+
+#submit{
+    width: 100px;
+    height: 50px;
+}
+#fname_alert, #lname_alert, #email_alert, #comments_alert{
+    color: red;
+    text-emphasis: bold;
+}
+:focus{
+    outline: 3px solid red;
+}
+#phone{
+    width: 500px;
+}
